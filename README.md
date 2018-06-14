@@ -32,7 +32,7 @@ _Feel free to email me at [juliajessicasher@gmail.com](mailto:juliajessicasher@g
 
 | Libraries and Tools |
 | :------------ | :------------- |
-| Webpack, CSS(Sass), Bootstrap, JavaScript, React, Redux, GoogleAPI |
+| Webpack, CSS(Sass), Bootstrap, Babel, JSX, React, Redux, GoogleAPI |
 
 ### <span style="color:#74875d;">License</span>
 
