@@ -1,6 +1,10 @@
-# ReduxSimpleStarter
+# _<p align="center">Julia Sheremet</p>_
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+## <span style="color:#74875d;">Description</span>
+
+_This webpage application is built with the help of a Udemy Course I took. I've acquired a better understand of how to build a one page React application. This Youtube page uses a Google API._
+
+Full Udemy Course Located Here: [Redux](https://www.udemy.com/react-redux/)
 
 ### Getting Started
 
