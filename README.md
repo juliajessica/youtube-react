@@ -35,7 +35,7 @@ _Feel free to email me at [juliajessicasher@gmail.com](mailto:juliajessicasher@g
 ## <span style="color:#74875d;">Technologies Used</span>
 
 | Libraries and Tools |
-| :------------ | :------------- |
+| :------------ |
 | Webpack, CSS(Sass), Bootstrap, Babel, JSX, React, Redux, GoogleAPI |
 
 ### <span style="color:#74875d;">License</span>
