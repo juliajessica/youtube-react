@@ -1,13 +1,15 @@
-# _<p align="center">Julia Sheremet</p>_
+# <p align="center">React Youtube Clone</p>
+
+### <p align="center">By: Julia Sheremet</p>
 
 ## <span style="color:#74875d;">Description</span>
 
-_This webpage application is built with the help of a Udemy Course I took. I've acquired a better understand of how to build a one page React application. This Youtube page uses a Google API._
+_This is a single webpage application built with the help of a React Udemy Course. I've acquired a better understand of how to build a one page React application. This Youtube page uses a Google API._
 
 Full Udemy Course Located Here: [Redux](https://www.udemy.com/react-redux/)
 
 ### Getting Started
-## install dependencies, then start the gulp process with the following:
+## Install dependencies, then start the gulp process with the following:
 
 ```
 > clone repo to your local computer
@@ -15,7 +17,9 @@ Full Udemy Course Located Here: [Redux](https://www.udemy.com/react-redux/)
 > npm start
 > type: http://localhost:8080/ in the browser
 ```
-## You will need get a personal Youtube API Key to view this project. Create an account with <a href="https://developers.google.com/">Google Developers</a> and go to the Google API Console and request for the Youtube Data API v3
+#### You will need get a personal Youtube API Key to view this project.
+Create an account with <a href="https://developers.google.com/">Google Developers</a> and go to the Google API Console and request for the Youtube Data API v3. Add your API key to index.js file in the API_Key variable: <strong>const API_Key = 'your key goes in here';</strong>
+
 
 
 ## <span style="color:#74875d;">Known Bugs</span>
@@ -26,7 +30,11 @@ _Feel free to email me at [juliajessicasher@gmail.com](mailto:juliajessicasher@g
 
 | Libraries and Tools |
 | :------------ |
-| Webpack, CSS(Sass), Bootstrap, Babel, JSX, React, Redux, GoogleAPI |
+| React, Redux, and JSX | 
+| CSS (Bootstrap) |
+| Webpack and Babel |
+| Node
+| Youtube Data API v3 |
 
 ### <span style="color:#74875d;">License</span>
 
