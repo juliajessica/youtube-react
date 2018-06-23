@@ -1,10 +1,15 @@
 # <p align="center">React Youtube Clone</p>
 
-### <p align="center">By: Julia Sheremet</p>
+#### <p align="center">By: Julia Sheremet</p>
+
+<p align="center">  
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
+<a href="https://github.com/RichardLitt/standard-readme"><img src="https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square"></a>
+</p>
 
 ## <span style="color:#74875d;">Description</span>
 
-_This is a single webpage application built with the help of a React Udemy Course. I've acquired a better understand of how to build a one page React application. This Youtube page uses a Google API._
+_This is a Youtube single webpage application built with the help of a React Udemy Course. This application uses props, mapping, and list items in JSX. I have gained a better understanding of React components, managing state and when to use a function and a class based components._
 
 Full Udemy Course Located Here: [Redux](https://www.udemy.com/react-redux/)
 
@@ -30,10 +35,10 @@ _Feel free to email me at [juliajessicasher@gmail.com](mailto:juliajessicasher@g
 
 | Libraries and Tools |
 | :------------ |
-| React, Redux, and JSX | 
+| React, Redux, and JSX |
 | CSS (Bootstrap) |
 | Webpack and Babel |
-| Node
+| node.js |
 | Youtube Data API v3 |
 
 ### <span style="color:#74875d;">License</span>
