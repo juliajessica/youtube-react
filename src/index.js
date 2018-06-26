@@ -28,9 +28,12 @@ class App extends Component { //function based component
   }//create new object (we name property: videos) & assign it this.state
 
   render() {
+    const videoSearch = _.debounce((term) => {this.videoSearch(term) }, 300);
+    //debounce takes the term that can only run every 3 seconds
+
     return (
       <div>
-        <SearchBar onSearchTermChange={term => this.videoSearch(term)} />
+        <SearchBar onSearchTermChange={videoSearch} />
         <VideoDetail video={this.state.selectedVideo} />
         <VideoList
           onVideoSelect={selectedVideo => this.setState({selectedVideo}) }
