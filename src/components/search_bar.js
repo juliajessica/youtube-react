@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
 
-// const SearchBar = () => {
-//   return <p><input placeholder="search"/></p>;
-// };
-
 //onChange is a react property
 //class based component
 class SearchBar extends Component { //creating an object
@@ -17,11 +13,17 @@ class SearchBar extends Component { //creating an object
     return (
       <div className="search-bar">
         <input
-          value={this.state.term} //displays text on dom
-          onChange={event => this.setState({ term: event.target.value })} />
+          value={this.state.term}
+          onChange={event => this.onInputChange(event.target.value)} />
       </div>
     );
   }
+
+  onInputChange(term) {
+    this.setState({term});
+    this.props.onSearchTermChange(term);
+  }
+
 }
 
 //causes the component to rerender & push new info to the DOM

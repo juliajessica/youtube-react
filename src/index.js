@@ -15,19 +15,21 @@ class App extends Component { //function based component
       videos: [],
       selectedVideo: null
     };
-
-    YTSearch({key: API_Key, term: 'surfboards'}, (videos) => {
+    this.videoSearch('surfboards');
+  }
+  videoSearch(term){
+    YTSearch({key: API_Key, term: term}, (videos) => {
       this.setState({
         videos: videos,
         selectedVideo: videos[0]
       });
     });
-  } //create new object (we name property: videos) & assign it this.state
+  }//create new object (we name property: videos) & assign it this.state
 
   render() {
     return (
       <div>
-        <SearchBar />
+        <SearchBar onSearchTermChange={term => this.videoSearch(term)} />
         <VideoDetail video={this.state.selectedVideo} />
         <VideoList
           onVideoSelect={selectedVideo => this.setState({selectedVideo}) }
